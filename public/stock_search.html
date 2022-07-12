@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Stock Search</title>
+</head>
+
+<body>
+ <h1>Search for your favorite tech stocks below</h1>
+ <form action="/search" method=GET>
+    <p>Find the stock with the
+        <input type="radio" id="high_cost" name="price" value="highest"> 
+        <label><strong>highest</strong> price</label> 
+        or the one with the 
+        <input type="radio" id="low_cost" name="price" value="lowest">
+        <label><strong>lowest</strong> price</label>
+        <br><br> 
+        <button type="submit" action="/search" method=GET>Search!</button>
+    </p>
+ </form>
+</body>
+
+</html>
